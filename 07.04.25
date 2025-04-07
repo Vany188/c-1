@@ -1,0 +1,96 @@
+#include <iostream>
+#include <string>
+#include <math.h>
+using namespace std;
+class calculator{
+    private:
+        float a,b,result;
+        const char* znak;
+    public:
+        calculator(int number_1,int number_2,const char*operation)
+        {
+            a=number_1;b=number_2;znak=operation;
+            if(znak=="+")
+            {
+                result=a+b;
+                cout<<a<<"+"<<b<<"="<<result<<endl;
+            }
+            if(znak=="-")
+            {
+                result=a-b;
+                cout<<a<<"-"<<b<<"="<<result<<endl;
+            }
+            if(znak=="*")
+            {
+                result=a*b;
+                cout<<a<<"*"<<b<<"="<<result<<endl;
+            }
+            if(znak=="/")
+            {
+                result=a/b;
+                cout<<a<<"/"<<b<<"="<<result<<endl;
+            }
+        }
+};
+
+
+class treyg{
+    private:
+        int a,b,c;
+        int a1,b1,c1;
+    public:
+        treyg(int star_1,int star_2,int star_3)
+        {
+            a=star_1;b=star_2;c=star_3;
+            a1 = pow(a, 2);
+            b1 = pow(b,2);
+            c1 = pow(c,2);
+            if(a+b>c&&b+c>a&&c+a>b)
+            {
+                if(a1+b1==c1||b1+c1==a1||c1+a1==b1)
+                {
+                    cout<<"прямо уг"<<endl;
+                }
+                else
+                {
+                    if(a1+b1<c1||b1+c1<a1|c1+a1<b1)
+                    {
+                        cout<<"тупо уг"<<endl;
+                    }
+                }
+                if(a1+b1>c1&&b1+c1>a1&&c1+a1>b1)
+                {
+                    cout<<"остро угольный"<<endl;
+                }
+                if(a1==b1&&b1==c1)
+                {
+                    cout<<"равносторонний"<<endl;
+                }
+                else
+                {
+                    if(a1==b1||b1==c1||c1==a1)
+                    {
+                        cout<<"равнобедренный"<<endl;
+                    }
+                else
+                {
+                    cout<<"несущ"<<endl;
+                }
+            }
+        }
+    }
+};
+int main() {
+    cout<<"что вы хотите сделать"<<endl;
+    cout<<"1 калькулятор"<<endl;
+    cout<<"2 определить тип треугольника"<<endl;
+    int n;
+    cin>>n;
+    if(n==1){
+    calculator c1(1,2,"*");
+    }
+    if(n==2){
+    treyg c2(4,5,4);
+    }
+    return 0;
+}
