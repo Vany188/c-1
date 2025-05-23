@@ -1,0 +1,42 @@
+#include <iostream>
+using namespace std;
+int main() {
+    int z;
+    char p;
+    cout <<"чтобы начать нажмите 9"<<endl;
+    cin>>z;
+    if(z==9){
+        cout<<"графиком квавдратного уравнения является?"<<"\n";
+        cout<<"\n"<<"a) прямая линия"<<endl;
+        cout<<"\n"<<"b) парабола"<<endl;
+        cout<<"\n"<<"c) ромб"<<endl;
+        cout<<"\n"<<"d) параллерограм"<<endl;
+        cin>>p;
+        switch (p){
+            case 'a':cout<<"неверно"<<endl;
+            exit(0);
+            break;
+            
+            case 'b':cout<<"правильно"<<endl;
+            break;
+            
+            case 'c':cout<<"неверно"<<endl;
+            exit(0);
+            break;
+            
+            case 'd':cout<<"неверно"<<endl;
+            exit(0);
+            break;
+            
+            default:cout<<"что то пошло не так"<<endl;
+            exit(0);
+            break;
+        }
+       cout<<"вы выйграли"<<endl;
+        
+    }
+    
+    
+    
+    return 0;
+}
