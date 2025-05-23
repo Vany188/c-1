@@ -139,7 +139,7 @@ int main() {
             exit(0);
             break;
             
-            case 'c':cout<<"правельно"<<endl;
+            case 'c':cout<<"правильно"<<endl;
             balance=700;
             break;
             
@@ -153,6 +153,7 @@ int main() {
         }
         cout<<"ваш баланс"<<balance<<endl;
         cout<<"вы выйграли"<<endl;
+        exit(0);
     }
         if(m==2){
         cout<<"уровень сложности : сложный"<<endl;
@@ -297,6 +298,7 @@ int main() {
         }
         cout<<"ваш баланс"<<balance<<endl;
         cout<<"вы победили"<<endl;
+        exit(0);
         }
         if(m==3){
         cout<<"выбран уровень слолжности : невозможный"<<endl;
@@ -439,8 +441,9 @@ int main() {
             exit(0);
             break;
         }
-        }
-        cout<<"ваш баланс"<<balance<<endl;
+         cout<<"ваш баланс"<<balance<<endl;
         cout<<"вы стали богаче"<<endl;
+        }
+       
     return 0;
 }
