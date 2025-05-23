@@ -8,9 +8,8 @@ int main() {
     char y;
     cout<<"выберите уровень сложности"<<endl;
     cout<<"1 простой "<<"\n"<<"2 сложный"<<"\n"<<"3 невозможный"<<endl;
-    int m;
-    cin>>m
-    
+    int m, balance;
+    cin>>m;
     if(m==1){
         cout<<"уровень сложности : простой"<<endl;
         cout<<"графиком квавдратного уравнения является?"<<"\n";
@@ -25,6 +24,7 @@ int main() {
             break;
             
             case 'b':cout<<"правильно"<<endl;
+            balance=500;
             break;
             
             case 'c':cout<<"неверно"<<endl;
@@ -39,11 +39,68 @@ int main() {
             exit(0);
             break;
         }
-        cout<<"графиком квавдратного уравнения является?"<<"\n";
-        cout<<"\n"<<"a) прямая линия"<<endl;
-        cout<<"\n"<<"b) парабола"<<endl;
-        cout<<"\n"<<"c) ромб"<<endl;
-        cout<<"\n"<<"d) параллерограм"<<endl;
+        cout<<"ваш баланс"<<balance<<endl;
+        cout<<"чему примерно равно число п?"<<"\n";
+        cout<<"\n"<<"a) 14,3"<<endl;
+        cout<<"\n"<<"b) 3"<<endl;
+        cout<<"\n"<<"c) 3,14"<<endl;
+        cout<<"\n"<<"d) что это такое?"<<endl;
+        cin>>p;
+        switch (p){
+            case 'a':cout<<"неверно"<<endl;
+            exit(0);
+            break;
+            
+            case 'b':cout<<"неправельно"<<endl;
+            exit(0);
+            break;
+            
+            case 'c':cout<<"верно"<<endl;\
+            balance=550;
+            break;
+            
+            case 'd':cout<<"это математическая постоянная, которая равна отношению длины окружности к её диаметру. "<<endl;
+            exit(0);
+            break;
+            
+            default:cout<<"что то пошло не так"<<endl;
+            exit(0);
+            break;
+        }
+        cout<<"ваш баланс"<<balance<<endl;
+        cout<<"когда началась вторая мировая война?"<<"\n";
+        cout<<"\n"<<"a) 4 апреля 1912 года"<<endl;
+        cout<<"\n"<<"b) 24 декабря 1979 года"<<endl;
+        cout<<"\n"<<"c) 14 февраля 2005 года"<<endl;
+        cout<<"\n"<<"d) 1 сентября 1939 года"<<endl;
+        cin>>p;
+        switch (p){
+            case 'a':cout<<"неверно"<<endl;
+            exit(0);
+            break;
+            
+            case 'b':cout<<"неугадали"<<endl;
+            exit(0);
+            break;
+            
+            case 'c':cout<<"неверно"<<endl;
+            exit(0);
+            break;
+            
+            case 'd':cout<<"хорошо"<<endl;
+            balance=600;
+            break;
+            
+            default:cout<<"что то пошло не так"<<endl;
+            exit(0);
+            break;
+        }
+        cout<<"ваш баланс"<<balance<<endl;
+        cout<<"чем измерить напряжение в сети?"<<"\n";
+        cout<<"\n"<<"a) амперметром"<<endl;
+        cout<<"\n"<<"b) вольтметром"<<endl;
+        cout<<"\n"<<"c) омметры"<<endl;
+        cout<<"\n"<<"d) электрометром"<<endl;
         cin>>p;
         switch (p){
             case 'a':cout<<"неверно"<<endl;
@@ -51,6 +108,7 @@ int main() {
             break;
             
             case 'b':cout<<"правильно"<<endl;
+            balance=650;
             break;
             
             case 'c':cout<<"неверно"<<endl;
@@ -65,48 +123,24 @@ int main() {
             exit(0);
             break;
         }
-        cout<<"графиком квавдратного уравнения является?"<<"\n";
-        cout<<"\n"<<"a) прямая линия"<<endl;
-        cout<<"\n"<<"b) парабола"<<endl;
-        cout<<"\n"<<"c) ромб"<<endl;
-        cout<<"\n"<<"d) параллерограм"<<endl;
+        cout<<"ваш баланс"<<balance<<endl;
+        cout<<"кто написал мертвые душе?"<<"\n";
+        cout<<"\n"<<"a) Пушкин"<<endl;
+        cout<<"\n"<<"b) Есенин"<<endl;
+        cout<<"\n"<<"c) Гоголь"<<endl;
+        cout<<"\n"<<"d) Грибоедов"<<endl;
         cin>>p;
         switch (p){
             case 'a':cout<<"неверно"<<endl;
             exit(0);
             break;
             
-            case 'b':cout<<"правильно"<<endl;
-            break;
-            
-            case 'c':cout<<"неверно"<<endl;
+            case 'b':cout<<"неправельно"<<endl;
             exit(0);
             break;
             
-            case 'd':cout<<"неверно"<<endl;
-            exit(0);
-            break;
-            
-            default:cout<<"что то пошло не так"<<endl;
-            exit(0);
-            break;
-        }
-        cout<<"графиком квавдратного уравнения является?"<<"\n";
-        cout<<"\n"<<"a) прямая линия"<<endl;
-        cout<<"\n"<<"b) парабола"<<endl;
-        cout<<"\n"<<"c) ромб"<<endl;
-        cout<<"\n"<<"d) параллерограм"<<endl;
-        cin>>p;
-        switch (p){
-            case 'a':cout<<"неверно"<<endl;
-            exit(0);
-            break;
-            
-            case 'b':cout<<"правильно"<<endl;
-            break;
-            
-            case 'c':cout<<"неверно"<<endl;
-            exit(0);
+            case 'c':cout<<"правельно"<<endl;
+            balance=700;
             break;
             
             case 'd':cout<<"неверно"<<endl;
@@ -117,51 +151,24 @@ int main() {
             exit(0);
             break;
         }
-        cout<<"графиком квавдратного уравнения является?"<<"\n";
-        cout<<"\n"<<"a) прямая линия"<<endl;
-        cout<<"\n"<<"b) парабола"<<endl;
-        cout<<"\n"<<"c) ромб"<<endl;
-        cout<<"\n"<<"d) параллерограм"<<endl;
-        cin>>p;
-        switch (p){
-            case 'a':cout<<"неверно"<<endl;
-            exit(0);
-            break;
-            
-            case 'b':cout<<"правильно"<<endl;
-            break;
-            
-            case 'c':cout<<"неверно"<<endl;
-            exit(0);
-            break;
-            
-            case 'd':cout<<"неверно"<<endl;
-            exit(0);
-            break;
-            
-            default:cout<<"что то пошло не так"<<endl;
-            exit(0);
-            break;
-        }
-        
-        
-        
-        
-        
+        cout<<"ваш баланс"<<balance<<endl;
+        cout<<"вы выйграли"<<endl;
+    }
         if(m==2){
         cout<<"уровень сложности : сложный"<<endl;
-        cout<<"графиком квавдратного уравнения является?"<<"\n";
-        cout<<"\n"<<"a) прямая линия"<<endl;
-        cout<<"\n"<<"b) парабола"<<endl;
-        cout<<"\n"<<"c) ромб"<<endl;
-        cout<<"\n"<<"d) параллерограм"<<endl;
+        cout<<"в честь какого полководца назвыали торт?"<<"\n";
+        cout<<"\n"<<"a) Наполеон Бонапарт"<<endl;
+        cout<<"\n"<<"b) Александр Васильевич Суворов"<<endl;
+        cout<<"\n"<<"c) Константин Константинович Рокоссовский"<<endl;
+        cout<<"\n"<<"d) Дмитрий Иванович Донской"<<endl;
         cin>>p;
         switch (p){
-            case 'a':cout<<"неверно"<<endl;
-            exit(0);
+            case 'a':cout<<"правильно"<<endl;
+            balance=800;
             break;
             
-            case 'b':cout<<"правильно"<<endl;
+            case 'b':cout<<"неправильно"<<endl;
+            exit(0);
             break;
             
             case 'c':cout<<"неверно"<<endl;
@@ -176,18 +183,76 @@ int main() {
             exit(0);
             break;
         }
-        cout<<"графиком квавдратного уравнения является?"<<"\n";
-        cout<<"\n"<<"a) прямая линия"<<endl;
-        cout<<"\n"<<"b) парабола"<<endl;
-        cout<<"\n"<<"c) ромб"<<endl;
-        cout<<"\n"<<"d) параллерограм"<<endl;
+        cout<<"ваш баланс"<<balance<<endl;
+        cout<<"как умер Пушкин?"<<"\n";
+        cout<<"\n"<<"a) повесился"<<endl;
+        cout<<"\n"<<"b) отравили"<<endl;
+        cout<<"\n"<<"c) застрелили"<<endl;
+        cout<<"\n"<<"d) от старости"<<endl;
         cin>>p;
         switch (p){
             case 'a':cout<<"неверно"<<endl;
             exit(0);
             break;
             
-            case 'b':cout<<"правильно"<<endl;
+            case 'b':cout<<"неправельно"<<endl;
+            exit(0);
+            break;
+            
+            case 'c':cout<<"правильно"<<endl;
+            balance=900;
+            break;
+            
+            case 'd':cout<<"неверно"<<endl;
+            exit(0);
+            break;
+            
+            default:cout<<"что то пошло не так"<<endl;
+            exit(0);
+            break;
+        }
+        cout<<"ваш баланс"<<balance<<endl;
+        cout<<"Какое дерево называют пушистым доктором?"<<"\n";
+        cout<<"\n"<<"a) дуб"<<endl;
+        cout<<"\n"<<"b) липа "<<endl;
+        cout<<"\n"<<"c) береза"<<endl;
+        cout<<"\n"<<"d) пихта"<<endl;
+        cin>>p;
+        switch (p){
+            case 'a':cout<<"неверно"<<endl;
+            exit(0);
+            break;
+            
+            case 'b':cout<<"неправельно"<<endl;
+            exit(0);
+            break;
+            
+            case 'c':cout<<"неверно"<<endl;
+            exit(0);
+            break;
+            
+            case 'd':cout<<"правильно"<<endl;
+            balance=1000;
+            break;
+            
+            default:cout<<"что то пошло не так"<<endl;
+            exit(0);
+            break;
+        }
+        cout<<"ваш баланс"<<balance<<endl;
+        cout<<"кто изобрел лампочку?"<<"\n";
+        cout<<"\n"<<"a) Томас Эдисон"<<endl;
+        cout<<"\n"<<"b) Никола Тесла"<<endl;
+        cout<<"\n"<<"c) Леонардо Да Винчи"<<endl;
+        cout<<"\n"<<"d) Борис Розинг"<<endl;
+        cin>>p;
+        switch (p){
+            case 'a':cout<<"правильно"<<endl;
+            balance=1100;
+            break;
+            
+            case 'b':cout<<"неправельно"<<endl;
+            exit(0);
             break;
             
             case 'c':cout<<"неверно"<<endl;
@@ -202,22 +267,24 @@ int main() {
             exit(0);
             break;
         }
-        cout<<"графиком квавдратного уравнения является?"<<"\n";
-        cout<<"\n"<<"a) прямая линия"<<endl;
-        cout<<"\n"<<"b) парабола"<<endl;
-        cout<<"\n"<<"c) ромб"<<endl;
-        cout<<"\n"<<"d) параллерограм"<<endl;
+        cout<<"ваш баланс"<<balance<<endl;
+        cout<<"сколько всего планет?"<<"\n";
+        cout<<"\n"<<"a) 10"<<endl;
+        cout<<"\n"<<"b) 9"<<endl;
+        cout<<"\n"<<"c) 8"<<endl;
+        cout<<"\n"<<"d) 7"<<endl;
         cin>>p;
         switch (p){
             case 'a':cout<<"неверно"<<endl;
             exit(0);
             break;
             
-            case 'b':cout<<"правильно"<<endl;
+            case 'b':cout<<"неверно"<<endl;
+            exit(0);
             break;
             
-            case 'c':cout<<"неверно"<<endl;
-            exit(0);
+            case 'c':cout<<"хорошо"<<endl;
+            balance=1200;
             break;
             
             case 'd':cout<<"неверно"<<endl;
@@ -228,63 +295,9 @@ int main() {
             exit(0);
             break;
         }
-        cout<<"графиком квавдратного уравнения является?"<<"\n";
-        cout<<"\n"<<"a) прямая линия"<<endl;
-        cout<<"\n"<<"b) парабола"<<endl;
-        cout<<"\n"<<"c) ромб"<<endl;
-        cout<<"\n"<<"d) параллерограм"<<endl;
-        cin>>p;
-        switch (p){
-            case 'a':cout<<"неверно"<<endl;
-            exit(0);
-            break;
-            
-            case 'b':cout<<"правильно"<<endl;
-            break;
-            
-            case 'c':cout<<"неверно"<<endl;
-            exit(0);
-            break;
-            
-            case 'd':cout<<"неверно"<<endl;
-            exit(0);
-            break;
-            
-            default:cout<<"что то пошло не так"<<endl;
-            exit(0);
-            break;
+        cout<<"ваш баланс"<<balance<<endl;
+        cout<<"вы победили"<<endl;
         }
-        cout<<"графиком квавдратного уравнения является?"<<"\n";
-        cout<<"\n"<<"a) прямая линия"<<endl;
-        cout<<"\n"<<"b) парабола"<<endl;
-        cout<<"\n"<<"c) ромб"<<endl;
-        cout<<"\n"<<"d) параллерограм"<<endl;
-        cin>>p;
-        switch (p){
-            case 'a':cout<<"неверно"<<endl;
-            exit(0);
-            break;
-            
-            case 'b':cout<<"правильно"<<endl;
-            break;
-            
-            case 'c':cout<<"неверно"<<endl;
-            exit(0);
-            break;
-            
-            case 'd':cout<<"неверно"<<endl;
-            exit(0);
-            break;
-            
-            default:cout<<"что то пошло не так"<<endl;
-            exit(0);
-            break;
-        }
-        
-        
-        
-        
-        
         if(m==3){
         cout<<"выбран уровень слолжности : невозможный"<<endl;
         cout<<"графиком квавдратного уравнения является?"<<"\n";
@@ -299,6 +312,7 @@ int main() {
             break;
             
             case 'b':cout<<"правильно"<<endl;
+            balance=1400;
             break;
             
             case 'c':cout<<"неверно"<<endl;
@@ -313,6 +327,7 @@ int main() {
             exit(0);
             break;
         }
+        cout<<"ваш баланс"<<balance<<endl;
         cout<<"графиком квавдратного уравнения является?"<<"\n";
         cout<<"\n"<<"a) прямая линия"<<endl;
         cout<<"\n"<<"b) парабола"<<endl;
@@ -325,6 +340,7 @@ int main() {
             break;
             
             case 'b':cout<<"правильно"<<endl;
+            balance=1600;
             break;
             
             case 'c':cout<<"неверно"<<endl;
@@ -339,6 +355,7 @@ int main() {
             exit(0);
             break;
         }
+        cout<<"ваш баланс"<<balance<<endl;
         cout<<"графиком квавдратного уравнения является?"<<"\n";
         cout<<"\n"<<"a) прямая линия"<<endl;
         cout<<"\n"<<"b) парабола"<<endl;
@@ -351,6 +368,7 @@ int main() {
             break;
             
             case 'b':cout<<"правильно"<<endl;
+            balance=1800;
             break;
             
             case 'c':cout<<"неверно"<<endl;
@@ -365,11 +383,12 @@ int main() {
             exit(0);
             break;
         }
-        cout<<"графиком квавдратного уравнения является?"<<"\n";
-        cout<<"\n"<<"a) прямая линия"<<endl;
-        cout<<"\n"<<"b) парабола"<<endl;
-        cout<<"\n"<<"c) ромб"<<endl;
-        cout<<"\n"<<"d) параллерограм"<<endl;
+        cout<<"ваш баланс"<<balance<<endl;
+        cout<<"когда щука идет на нерест?"<<"\n";
+        cout<<"\n"<<"a) май"<<endl;
+        cout<<"\n"<<"b) март"<<endl;
+        cout<<"\n"<<"c) май-июнь"<<endl;
+        cout<<"\n"<<"d) март-апрель"<<endl;
         cin>>p;
         switch (p){
             case 'a':cout<<"неверно"<<endl;
@@ -377,6 +396,7 @@ int main() {
             break;
             
             case 'b':cout<<"правильно"<<endl;
+            exit(0);
             break;
             
             case 'c':cout<<"неверно"<<endl;
@@ -384,18 +404,19 @@ int main() {
             break;
             
             case 'd':cout<<"неверно"<<endl;
-            exit(0);
+            balance=2000;
             break;
             
             default:cout<<"что то пошло не так"<<endl;
             exit(0);
             break;
         }
-        cout<<"графиком квавдратного уравнения является?"<<"\n";
-        cout<<"\n"<<"a) прямая линия"<<endl;
-        cout<<"\n"<<"b) парабола"<<endl;
-        cout<<"\n"<<"c) ромб"<<endl;
-        cout<<"\n"<<"d) параллерограм"<<endl;
+        cout<<"ваш баланс"<<balance<<endl;
+        cout<<"Детинцем на Руси называли?"<<"\n";
+        cout<<"\n"<<"a) Школу"<<endl;
+        cout<<"\n"<<"b) Кремль"<<endl;
+        cout<<"\n"<<"c) Княжеский терем"<<endl;
+        cout<<"\n"<<"d) Монастырь"<<endl;
         cin>>p;
         switch (p){
             case 'a':cout<<"неверно"<<endl;
@@ -403,6 +424,7 @@ int main() {
             break;
             
             case 'b':cout<<"правильно"<<endl;
+            balance=2200;
             break;
             
             case 'c':cout<<"неверно"<<endl;
@@ -417,11 +439,8 @@ int main() {
             exit(0);
             break;
         }
-       cout<<"вы выйграли"<<endl;
-        
-    }
-    
-    
-    
+        }
+        cout<<"ваш баланс"<<balance<<endl;
+        cout<<"вы стали богаче"<<endl;
     return 0;
 }
