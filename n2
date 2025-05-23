@@ -1,0 +1,427 @@
+#include <iostream>
+using namespace std;
+int main() {
+    char p;
+    char o;
+    char i;
+    char u;
+    char y;
+    cout<<"выберите уровень сложности"<<endl;
+    cout<<"1 простой "<<"\n"<<"2 сложный"<<"\n"<<"3 невозможный"<<endl;
+    int m;
+    cin>>m
+    
+    if(m==1){
+        cout<<"уровень сложности : простой"<<endl;
+        cout<<"графиком квавдратного уравнения является?"<<"\n";
+        cout<<"\n"<<"a) прямая линия"<<endl;
+        cout<<"\n"<<"b) парабола"<<endl;
+        cout<<"\n"<<"c) ромб"<<endl;
+        cout<<"\n"<<"d) параллерограм"<<endl;
+        cin>>p;
+        switch (p){
+            case 'a':cout<<"неверно"<<endl;
+            exit(0);
+            break;
+            
+            case 'b':cout<<"правильно"<<endl;
+            break;
+            
+            case 'c':cout<<"неверно"<<endl;
+            exit(0);
+            break;
+            
+            case 'd':cout<<"неверно"<<endl;
+            exit(0);
+            break;
+            
+            default:cout<<"что то пошло не так"<<endl;
+            exit(0);
+            break;
+        }
+        cout<<"графиком квавдратного уравнения является?"<<"\n";
+        cout<<"\n"<<"a) прямая линия"<<endl;
+        cout<<"\n"<<"b) парабола"<<endl;
+        cout<<"\n"<<"c) ромб"<<endl;
+        cout<<"\n"<<"d) параллерограм"<<endl;
+        cin>>p;
+        switch (p){
+            case 'a':cout<<"неверно"<<endl;
+            exit(0);
+            break;
+            
+            case 'b':cout<<"правильно"<<endl;
+            break;
+            
+            case 'c':cout<<"неверно"<<endl;
+            exit(0);
+            break;
+            
+            case 'd':cout<<"неверно"<<endl;
+            exit(0);
+            break;
+            
+            default:cout<<"что то пошло не так"<<endl;
+            exit(0);
+            break;
+        }
+        cout<<"графиком квавдратного уравнения является?"<<"\n";
+        cout<<"\n"<<"a) прямая линия"<<endl;
+        cout<<"\n"<<"b) парабола"<<endl;
+        cout<<"\n"<<"c) ромб"<<endl;
+        cout<<"\n"<<"d) параллерограм"<<endl;
+        cin>>p;
+        switch (p){
+            case 'a':cout<<"неверно"<<endl;
+            exit(0);
+            break;
+            
+            case 'b':cout<<"правильно"<<endl;
+            break;
+            
+            case 'c':cout<<"неверно"<<endl;
+            exit(0);
+            break;
+            
+            case 'd':cout<<"неверно"<<endl;
+            exit(0);
+            break;
+            
+            default:cout<<"что то пошло не так"<<endl;
+            exit(0);
+            break;
+        }
+        cout<<"графиком квавдратного уравнения является?"<<"\n";
+        cout<<"\n"<<"a) прямая линия"<<endl;
+        cout<<"\n"<<"b) парабола"<<endl;
+        cout<<"\n"<<"c) ромб"<<endl;
+        cout<<"\n"<<"d) параллерограм"<<endl;
+        cin>>p;
+        switch (p){
+            case 'a':cout<<"неверно"<<endl;
+            exit(0);
+            break;
+            
+            case 'b':cout<<"правильно"<<endl;
+            break;
+            
+            case 'c':cout<<"неверно"<<endl;
+            exit(0);
+            break;
+            
+            case 'd':cout<<"неверно"<<endl;
+            exit(0);
+            break;
+            
+            default:cout<<"что то пошло не так"<<endl;
+            exit(0);
+            break;
+        }
+        cout<<"графиком квавдратного уравнения является?"<<"\n";
+        cout<<"\n"<<"a) прямая линия"<<endl;
+        cout<<"\n"<<"b) парабола"<<endl;
+        cout<<"\n"<<"c) ромб"<<endl;
+        cout<<"\n"<<"d) параллерограм"<<endl;
+        cin>>p;
+        switch (p){
+            case 'a':cout<<"неверно"<<endl;
+            exit(0);
+            break;
+            
+            case 'b':cout<<"правильно"<<endl;
+            break;
+            
+            case 'c':cout<<"неверно"<<endl;
+            exit(0);
+            break;
+            
+            case 'd':cout<<"неверно"<<endl;
+            exit(0);
+            break;
+            
+            default:cout<<"что то пошло не так"<<endl;
+            exit(0);
+            break;
+        }
+        
+        
+        
+        
+        
+        if(m==2){
+        cout<<"уровень сложности : сложный"<<endl;
+        cout<<"графиком квавдратного уравнения является?"<<"\n";
+        cout<<"\n"<<"a) прямая линия"<<endl;
+        cout<<"\n"<<"b) парабола"<<endl;
+        cout<<"\n"<<"c) ромб"<<endl;
+        cout<<"\n"<<"d) параллерограм"<<endl;
+        cin>>p;
+        switch (p){
+            case 'a':cout<<"неверно"<<endl;
+            exit(0);
+            break;
+            
+            case 'b':cout<<"правильно"<<endl;
+            break;
+            
+            case 'c':cout<<"неверно"<<endl;
+            exit(0);
+            break;
+            
+            case 'd':cout<<"неверно"<<endl;
+            exit(0);
+            break;
+            
+            default:cout<<"что то пошло не так"<<endl;
+            exit(0);
+            break;
+        }
+        cout<<"графиком квавдратного уравнения является?"<<"\n";
+        cout<<"\n"<<"a) прямая линия"<<endl;
+        cout<<"\n"<<"b) парабола"<<endl;
+        cout<<"\n"<<"c) ромб"<<endl;
+        cout<<"\n"<<"d) параллерограм"<<endl;
+        cin>>p;
+        switch (p){
+            case 'a':cout<<"неверно"<<endl;
+            exit(0);
+            break;
+            
+            case 'b':cout<<"правильно"<<endl;
+            break;
+            
+            case 'c':cout<<"неверно"<<endl;
+            exit(0);
+            break;
+            
+            case 'd':cout<<"неверно"<<endl;
+            exit(0);
+            break;
+            
+            default:cout<<"что то пошло не так"<<endl;
+            exit(0);
+            break;
+        }
+        cout<<"графиком квавдратного уравнения является?"<<"\n";
+        cout<<"\n"<<"a) прямая линия"<<endl;
+        cout<<"\n"<<"b) парабола"<<endl;
+        cout<<"\n"<<"c) ромб"<<endl;
+        cout<<"\n"<<"d) параллерограм"<<endl;
+        cin>>p;
+        switch (p){
+            case 'a':cout<<"неверно"<<endl;
+            exit(0);
+            break;
+            
+            case 'b':cout<<"правильно"<<endl;
+            break;
+            
+            case 'c':cout<<"неверно"<<endl;
+            exit(0);
+            break;
+            
+            case 'd':cout<<"неверно"<<endl;
+            exit(0);
+            break;
+            
+            default:cout<<"что то пошло не так"<<endl;
+            exit(0);
+            break;
+        }
+        cout<<"графиком квавдратного уравнения является?"<<"\n";
+        cout<<"\n"<<"a) прямая линия"<<endl;
+        cout<<"\n"<<"b) парабола"<<endl;
+        cout<<"\n"<<"c) ромб"<<endl;
+        cout<<"\n"<<"d) параллерограм"<<endl;
+        cin>>p;
+        switch (p){
+            case 'a':cout<<"неверно"<<endl;
+            exit(0);
+            break;
+            
+            case 'b':cout<<"правильно"<<endl;
+            break;
+            
+            case 'c':cout<<"неверно"<<endl;
+            exit(0);
+            break;
+            
+            case 'd':cout<<"неверно"<<endl;
+            exit(0);
+            break;
+            
+            default:cout<<"что то пошло не так"<<endl;
+            exit(0);
+            break;
+        }
+        cout<<"графиком квавдратного уравнения является?"<<"\n";
+        cout<<"\n"<<"a) прямая линия"<<endl;
+        cout<<"\n"<<"b) парабола"<<endl;
+        cout<<"\n"<<"c) ромб"<<endl;
+        cout<<"\n"<<"d) параллерограм"<<endl;
+        cin>>p;
+        switch (p){
+            case 'a':cout<<"неверно"<<endl;
+            exit(0);
+            break;
+            
+            case 'b':cout<<"правильно"<<endl;
+            break;
+            
+            case 'c':cout<<"неверно"<<endl;
+            exit(0);
+            break;
+            
+            case 'd':cout<<"неверно"<<endl;
+            exit(0);
+            break;
+            
+            default:cout<<"что то пошло не так"<<endl;
+            exit(0);
+            break;
+        }
+        
+        
+        
+        
+        
+        if(m==3){
+        cout<<"выбран уровень слолжности : невозможный"<<endl;
+        cout<<"графиком квавдратного уравнения является?"<<"\n";
+        cout<<"\n"<<"a) прямая линия"<<endl;
+        cout<<"\n"<<"b) парабола"<<endl;
+        cout<<"\n"<<"c) ромб"<<endl;
+        cout<<"\n"<<"d) параллерограм"<<endl;
+        cin>>p;
+        switch (p){
+            case 'a':cout<<"неверно"<<endl;
+            exit(0);
+            break;
+            
+            case 'b':cout<<"правильно"<<endl;
+            break;
+            
+            case 'c':cout<<"неверно"<<endl;
+            exit(0);
+            break;
+            
+            case 'd':cout<<"неверно"<<endl;
+            exit(0);
+            break;
+            
+            default:cout<<"что то пошло не так"<<endl;
+            exit(0);
+            break;
+        }
+        cout<<"графиком квавдратного уравнения является?"<<"\n";
+        cout<<"\n"<<"a) прямая линия"<<endl;
+        cout<<"\n"<<"b) парабола"<<endl;
+        cout<<"\n"<<"c) ромб"<<endl;
+        cout<<"\n"<<"d) параллерограм"<<endl;
+        cin>>p;
+        switch (p){
+            case 'a':cout<<"неверно"<<endl;
+            exit(0);
+            break;
+            
+            case 'b':cout<<"правильно"<<endl;
+            break;
+            
+            case 'c':cout<<"неверно"<<endl;
+            exit(0);
+            break;
+            
+            case 'd':cout<<"неверно"<<endl;
+            exit(0);
+            break;
+            
+            default:cout<<"что то пошло не так"<<endl;
+            exit(0);
+            break;
+        }
+        cout<<"графиком квавдратного уравнения является?"<<"\n";
+        cout<<"\n"<<"a) прямая линия"<<endl;
+        cout<<"\n"<<"b) парабола"<<endl;
+        cout<<"\n"<<"c) ромб"<<endl;
+        cout<<"\n"<<"d) параллерограм"<<endl;
+        cin>>p;
+        switch (p){
+            case 'a':cout<<"неверно"<<endl;
+            exit(0);
+            break;
+            
+            case 'b':cout<<"правильно"<<endl;
+            break;
+            
+            case 'c':cout<<"неверно"<<endl;
+            exit(0);
+            break;
+            
+            case 'd':cout<<"неверно"<<endl;
+            exit(0);
+            break;
+            
+            default:cout<<"что то пошло не так"<<endl;
+            exit(0);
+            break;
+        }
+        cout<<"графиком квавдратного уравнения является?"<<"\n";
+        cout<<"\n"<<"a) прямая линия"<<endl;
+        cout<<"\n"<<"b) парабола"<<endl;
+        cout<<"\n"<<"c) ромб"<<endl;
+        cout<<"\n"<<"d) параллерограм"<<endl;
+        cin>>p;
+        switch (p){
+            case 'a':cout<<"неверно"<<endl;
+            exit(0);
+            break;
+            
+            case 'b':cout<<"правильно"<<endl;
+            break;
+            
+            case 'c':cout<<"неверно"<<endl;
+            exit(0);
+            break;
+            
+            case 'd':cout<<"неверно"<<endl;
+            exit(0);
+            break;
+            
+            default:cout<<"что то пошло не так"<<endl;
+            exit(0);
+            break;
+        }
+        cout<<"графиком квавдратного уравнения является?"<<"\n";
+        cout<<"\n"<<"a) прямая линия"<<endl;
+        cout<<"\n"<<"b) парабола"<<endl;
+        cout<<"\n"<<"c) ромб"<<endl;
+        cout<<"\n"<<"d) параллерограм"<<endl;
+        cin>>p;
+        switch (p){
+            case 'a':cout<<"неверно"<<endl;
+            exit(0);
+            break;
+            
+            case 'b':cout<<"правильно"<<endl;
+            break;
+            
+            case 'c':cout<<"неверно"<<endl;
+            exit(0);
+            break;
+            
+            case 'd':cout<<"неверно"<<endl;
+            exit(0);
+            break;
+            
+            default:cout<<"что то пошло не так"<<endl;
+            exit(0);
+            break;
+        }
+       cout<<"вы выйграли"<<endl;
+        
+    }
+    
+    
+    
+    return 0;
+}
