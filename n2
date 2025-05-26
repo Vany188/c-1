@@ -302,21 +302,21 @@ int main() {
         }
         if(m==3){
         cout<<"выбран уровень слолжности : невозможный"<<endl;
-        cout<<"графиком квавдратного уравнения является?"<<"\n";
-        cout<<"\n"<<"a) прямая линия"<<endl;
-        cout<<"\n"<<"b) парабола"<<endl;
-        cout<<"\n"<<"c) ромб"<<endl;
-        cout<<"\n"<<"d) параллерограм"<<endl;
+        cout<<"Какая самая короткая трагедия Шекспира?"<<"\n";
+        cout<<"\n"<<"a) Макбет"<<endl;
+        cout<<"\n"<<"b) Гамлет"<<endl;
+        cout<<"\n"<<"c) Ромео и Джульетта"<<endl;
+        cout<<"\n"<<"d)  Отелло"<<endl;
         cin>>p;
         switch (p){
-            case 'a':cout<<"неверно"<<endl;
-            exit(0);
-            break;
-            
-            case 'b':cout<<"правильно"<<endl;
+            case 'a':cout<<"правильно"<<endl;
             balance=1400;
             break;
             
+            case 'b':cout<<"неверно"<<endl;
+            exit(0);
+            break;
+            
             case 'c':cout<<"неверно"<<endl;
             exit(0);
             break;
@@ -330,39 +330,39 @@ int main() {
             break;
         }
         cout<<"ваш баланс"<<balance<<endl;
-        cout<<"графиком квавдратного уравнения является?"<<"\n";
-        cout<<"\n"<<"a) прямая линия"<<endl;
-        cout<<"\n"<<"b) парабола"<<endl;
-        cout<<"\n"<<"c) ромб"<<endl;
-        cout<<"\n"<<"d) параллерограм"<<endl;
+        cout<<"Какая самая редкая группа крови?"<<"\n";
+        cout<<"\n"<<"a)  I группа"<<endl;
+        cout<<"\n"<<"b) II группа"<<endl;
+        cout<<"\n"<<"c) III группа"<<endl;
+        cout<<"\n"<<"d) IV группа"<<endl;
         cin>>p;
         switch (p){
             case 'a':cout<<"неверно"<<endl;
             exit(0);
             break;
             
-            case 'b':cout<<"правильно"<<endl;
+            case 'b':cout<<"неверно"<<endl;
+            exit(0);
+            break;
+            
+            case 'c':cout<<"неверно"<<endl;
+            exit(0);
+            break;
+            
+            case 'd':cout<<"правильно"<<endl;
             balance=1600;
             break;
             
-            case 'c':cout<<"неверно"<<endl;
-            exit(0);
-            break;
-            
-            case 'd':cout<<"неверно"<<endl;
-            exit(0);
-            break;
-            
             default:cout<<"что то пошло не так"<<endl;
             exit(0);
             break;
         }
         cout<<"ваш баланс"<<balance<<endl;
-        cout<<"графиком квавдратного уравнения является?"<<"\n";
-        cout<<"\n"<<"a) прямая линия"<<endl;
-        cout<<"\n"<<"b) парабола"<<endl;
-        cout<<"\n"<<"c) ромб"<<endl;
-        cout<<"\n"<<"d) параллерограм"<<endl;
+        cout<<"Кто из этих персонажей не дружит с Гарри Поттером?"<<"\n";
+        cout<<"\n"<<"a) Рон Уизли"<<endl;
+        cout<<"\n"<<"b) Невилл Лонгботтом"<<endl;
+        cout<<"\n"<<"c) Драко Малфой"<<endl;
+        cout<<"\n"<<"d) Гермиона Грейнджер"<<endl;
         cin>>p;
         switch (p){
             case 'a':cout<<"неверно"<<endl;
@@ -370,11 +370,11 @@ int main() {
             break;
             
             case 'b':cout<<"правильно"<<endl;
-            balance=1800;
+            exit(0);
             break;
             
             case 'c':cout<<"неверно"<<endl;
-            exit(0);
+            balance=1800;
             break;
             
             case 'd':cout<<"неверно"<<endl;
